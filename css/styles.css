@@ -101,6 +101,17 @@ h1 {
     color: #FFFFFF;
 }
 
+.hero {
+    background-color: #7EA6A7;
+    background-image: url(/img/hero-cat.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 944px;
+    height: 480px;
+    margin: 0 auto 60px;
+}
+
 .hero-title {
     font-weight: 400;
     font-size: 16px;
@@ -188,17 +199,6 @@ h1 {
 
 .cats-photo-list li:hover {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
-}
-
-.hero {
-    background-color: #7EA6A7;
-    background-image: url(/img/hero-cat.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 16px;
-    width: 944px;
-    height: 480px;
-    margin: 0 auto 60px;
 }
 
 .footer-container {
