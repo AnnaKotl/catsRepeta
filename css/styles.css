@@ -1,0 +1,267 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    letter-spacing: 0.5px;
+    color: #F07F2E;
+}
+
+.page-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.page-nav a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #2C2C2C;
+}
+
+.page-nav a:hover {
+    color: #F07F2E;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-container {
+    position: absolute;
+    top: 236px;
+    width: 432px;
+    height: 192px;
+    background-color: #0F3F3C;
+    border-radius: 16px;
+    padding: 24px;
+    margin-left: 28px;
+}
+
+footer {
+    background-color: #0F3F3C;
+}
+
+h1 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.0;
+    letter-spacing: 1.25px;
+    color: #FFFFFF;
+}
+
+.hero-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.section-tile {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.67;
+    letter-spacing: 0.5px;
+    color: #2C2C2C;
+}
+
+.cat-list {
+    display: flex;
+    gap: 40px;
+}
+
+.cat-list li {
+    overflow: hidden;
+    border-radius: 16px;
+    max-width: 288px;
+}
+
+.cat-list li:hover {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.cat-list .content {
+    padding: 16px 8px 24px;
+}
+
+.cat-list h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #2C2C2C;
+}
+
+.cat-list p {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #2C2C2C;
+}
+
+.galery h2 {
+    margin-bottom: 8px;
+}
+
+.galery ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.galery li {
+    flex-basis: calc((100% - 5 * 16px) / 6);
+    
+}
+
+.galery p {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #2C2C2C;
+}
+
+.cats-photo-list img {
+    border-radius: 16px;
+}
+
+.cats-photo-list li {
+    border-radius: 16px;
+}
+
+.cats-photo-list li:hover {
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.hero {
+    background-color: #7EA6A7;
+    background-image: url(/img/hero-cat.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 944px;
+    height: 480px;
+    margin: 0 auto 60px;
+}
+
+.footer-container {
+    padding: 48px 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.social-list {
+    display: flex;
+    gap: 34px;
+}
+
+.social-title {
+    text-align: right;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F07F2E;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+}
+
+.social-link:hover .social-icon{
+    fill: currentColor;
+}
+
+.social-link:focus .social-icon{
+    fill: currentColor;
+}
+
+.social-link:hover {
+    background-color: #fff;
+}
+
+.social-link:focus {
+    background-color: #fff;
+}
+
+.social-icon {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+}
+
