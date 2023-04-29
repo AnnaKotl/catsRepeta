@@ -25,24 +25,73 @@
             <a href="">Контакти</a></li>
         </nav>
     </header>
+
     <main>
         
         <!-- Hero section -->
         <section class="hero section">
             <div class="hero-container container">
-                <h1>
-                    Привіт, людино
-                </h1>
-                <p class="hero-title">
-                    Бракує в житті шовкових лапок, м’якенького пухнастого животика, теплого муррркотіння й веселого
-                    розгардіяшу? Візьми собі котика.
-                </p>
+                <ul class="hero-items">
+                    <li class="hero-item first">
+                        <div class="hero-item-container">
+                            <h1 class="hero-title">
+                                Привіт, людино
+                            </h1>
+                            <p class="hero-subtitle">
+                                Бракує в житті шовкових лапок, м’якенького пухнастого животика, теплого муррркотіння й веселого
+                                розгардіяшу? Візьми собі котика.
+                            </p>
+                        </div>
+                    </li>
+
+                    <!-- <li class="hero-item second">
+                            <div class="hero-item-container">
+                                <h1 class="hero-title">
+                                    Нарешті ти тут
+                                </h1>
+                                <p class="hero-title">
+                                    Люди й котики разом завжди щасливіші. Тож додай у своє життя щастячка. Чекаємо тебе! 
+                                    Візьми собі котика.
+                                </p>
+                            </div>
+                    </li> -->
+
+                    <!-- <li class="hero-item tree">
+                            <div class="hero-item-container">
+                                <h1 class="hero-title">
+                                    Котики чекають
+                                </h1>
+                                <p class="hero-title">
+                                    Вибери того, що створений для тебе. Нехай сама любов муркоче тобі на вушко й торкається лапкою. 
+                                    Візми собі котика.
+                                </p>
+                            </div>
+                    </li> -->
+
+                </ul>
+
+                <div class="hero-btb-container">
+
+                    <button type="button" class="hero-btn next">
+                        <svg class="hero-btn-icon" width="24" height="24">
+                            <use href="./img/symbol-defs.svg#icon-left"></use>
+                        </svg>
+                    </button>
+
+                    <button type="button" class="hero-btn right-btn prev">
+                        <svg class="hero-btn-icon" width="24" height="24">
+                            <use href="./img/symbol-defs.svg#icon-right"></use>
+                        </svg>
+                    </button>
+
+                </div>
+
             </div>
         </section>
 
         <!-- Cats section -->
         <section class="section container">
-            <h2 class="section-tile">
+            <h2 class="section-tile cats-title">
                 Ці друзяки готові приймати твою любов і піклування
             </h2>
             <ul class="cat-list">
@@ -79,20 +128,22 @@
                 <h2 class="section-tile">Котики, які вже знайшли сім’ю</h2>
                 <p>Ти тільки поглянь, скільки ніжності!<br>
                     На місці цих задоволених людей можеш бути ти.</p>
+
                 <ul class="cats-photo-list">
-                    <li><img src="./img/1.jpg" alt="фото котика"></li>
-                    <li><img src="./img/2.jpg" alt="фото котика"></li>
-                    <li><img src="./img/3.jpg" alt="фото котика"></li>
-                    <li><img src="./img/4.jpg" alt="фото котика"></li>
-                    <li><img src="./img/5.jpg" alt="фото котика"></li>
-                    <li><img src="./img/6.jpg" alt="фото котика"></li>
-                    <li><img src="./img/7.jpg" alt="фото котика"></li>
-                    <li><img src="./img/8.jpg" alt="фото котика"></li>
-                    <li><img src="./img/9.jpg" alt="фото котика"></li>
-                    <li><img src="./img/10.jpg" alt="фото котика"></li>
-                    <li><img src="./img/11.jpg" alt="фото котика"></li>
-                    <li><img src="./img/12.jpg" alt="фото котика"></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-1.jpg"><img src="./img/1.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-2.jpg"><img src="./img/2.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-3.jpg"><img src="./img/3.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-4.jpg"><img src="./img/4.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-5.jpg"><img src="./img/5.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-6.jpg"><img src="./img/6.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-7.jpg"><img src="./img/7.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-8.jpg"><img src="./img/8.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-9.jpg"><img src="./img/9.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-10.jpg"><img src="./img/10.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-11.jpg"><img src="./img/11.jpg" alt="фото котика"></a></li>
+                    <li class="cats-photo-item"><a href="./img/gallery-12.jpg"><img src="./img/12.jpg" alt="фото котика"></a></li>
                 </ul>
+
             </div>
         </section>
 
@@ -144,6 +195,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/script.js"></script>
+
 </body>
 
 </html>
